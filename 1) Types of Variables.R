@@ -1,4 +1,6 @@
 
+## Following are the types of variables 
+
 
 #integer
 x <- 2L
@@ -19,7 +21,7 @@ z <- 3 +2i
 typeof(z)
 
 
-#charachter
+#character
 a <- "jordan the rockstar"
 typeof(a)
 
