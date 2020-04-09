@@ -1,0 +1,15 @@
+## Download the mispriced diamonds data set attached and import it in R using the following code
+
+
+mydata <- read.csv(file.choose()) ## this file will show you a list of files and you can select the dataset.
+
+install.packages("ggplot2") ## install this package. It is used to create data visualizations
+
+library("ggplot2)
+
+## The code below will create a beautiful graph. Just run this code to check the graph and 
+in the later part we will go through on working of it. 
+
+
+ggplot(data = mydata[mydata$carat<2.5,], aes(x = carat, y = price, color = clarity)) + geom_point(alpha = 0.1) + 
+  geom_smooth()
