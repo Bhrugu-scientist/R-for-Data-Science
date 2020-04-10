@@ -1,0 +1,45 @@
+
+
+counter <- 1                     # Let us store value of (1) in variable "counter"
+while (counter < 15) {           # This is the basic syntax {}. Define till what number you want to get the number printed. Here I have chosen 15
+  print(counter)                 # This statement prints counter
+  counter <- counter + 1         # counter + 1 = 1, 1+1 = 2, 2+1 = 3, 3+1 =4 and it will go on till 15.  
+}
+#Output :- 
+#[1] 1
+#[1] 2
+#[1] 3
+#[1] 4
+#[1] 5
+#[1] 6
+#[1] 7
+#[1] 8
+#[1] 9
+#[1] 10
+#[1] 11
+#[1] 12
+#[1] 13
+#[1] 14
+
+
+# If you do not want to print every number and just want the even numbers then execute the following code. If you want multiples of 3
+# do, counter <- counter + 3
+
+
+counter <- 2
+while (counter < 20) {
+  print(counter)
+  counter <- counter + 2
+}
+
+
+#Output :-
+#[1] 2
+#[1] 4
+#[1] 6
+#[1] 8
+#[1] 10
+#[1] 12
+#[1] 14
+#[1] 16
+#[1] 18
