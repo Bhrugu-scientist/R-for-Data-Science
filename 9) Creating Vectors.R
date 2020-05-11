@@ -1,6 +1,6 @@
 Myfirstvector <- c(3,45,56,732)
 Myfirstvector
-is.numeric(Myfirstvector)
+is.numeric(Myfirstvector)              ## checking the data type of vector
 is.integer(Myfirstvector)
 is.double(Myfirstvector)
 
